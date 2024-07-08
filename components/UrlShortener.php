@@ -32,6 +32,7 @@ final class UrlShortener extends Component
     }
 
     /**
+     * TODO: Эта функция должна брать следующий свободный код из списка всех возможных кодов, отсортированного случайно. Так можно избежать бесконечного цикла.
      * Creates random 5-symbol code. Code contains only [A-Za-z0-9_-] characters.
      *
      * @return string
